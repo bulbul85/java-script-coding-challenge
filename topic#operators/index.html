@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link rel="stylesheet" href="style.css">
+    <title>javascript</title>
+    <script>
+        // what will be the output of following
+        var x=5;
+        var y=10
+        var z=x+y;
+    
+
+        // document.write(z);
+        // document.write(y-x);
+        // document.write(x*y);
+        // document.write(y/x);
+        // document.write(x%2);
+        // document.write(x++);
+        // document.write(x--);
+
+        // what will be be the output of following
+    var a=5, b=10, c="5";
+var x=a
+document.write(x);
+document.write(a==c);
+ document.write(a===c);
+document.write(a==x);
+document.write(a!=b);
+document.write(a<b);
+document.write(a>=b);
+document.write(a>=c);
+document.write(a<=c);
+
+    </script>
+</head>
+<body>
+    <h2> convert temperatue</h2>
+     <!-- coversion degree to F and F to degree -->
+<!-- F=(1.8*C)+32 -->
+<!-- var C=35 -->
+<!-- F=(1.8*35)+32 -->
+℃=(℉-32)/1.8
+var F=98
+<!-- <p>Type a value in the Celsius field to convert the value to Fahrenheit:</p> -->
+
+<p>
+  <!-- <label>Celsius</label> -->
+  <!-- <input id="inputCelsius" type="number" placeholder="Celsius" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)"> -->
+</p>
+<!-- <p>Fahrenheit: <span id="outputFahrenheit"></span></p> -->
+
+<p>
+    <label>Fahrenheit</label>
+    <input id="inputFahrenheit" type="number" placeholder="Fahrenheit" oninput="temperatureConverter(this.value)" onchange="temperatureConverter(this.value)">
+  </p>
+  <p>Celcius: <span id="outputCelcius"></span></p>
+
+  
